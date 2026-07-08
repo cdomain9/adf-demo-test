@@ -1,0 +1,15 @@
+{
+	"name": "cdomain-df-ADF-enablement-lab",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b4bb257f-fe66-477c-844f-4f542fcab19c",
+		"tenantId": "1f2558d0-4970-49d9-aa83-062e05332405"
+	}
+}

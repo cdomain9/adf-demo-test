@@ -1,0 +1,17 @@
+{
+	"name": "ds_AzureSqlTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "la_Azure_SqlDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "PERSON",
+			"table": "address"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

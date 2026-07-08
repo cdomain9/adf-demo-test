@@ -1,0 +1,17 @@
+{
+	"name": "la_Azure_SqlDatabase",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "cdomain-srv-sqlsrv-adf-enablement-lab.database.windows.net",
+			"database": "cdomain_db_ADF_enablement_lab",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "cdomain_azure_admin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEYyQ0VDREMzLTBDRTAtNDA3Ri1BRkFFLTc5REFDQjYwQ0Q2OV84NWM1OGYwNC0xNmE2LTQyZGItODkxMi0yNmQyYjlmYmY5NjgiDQp9"
+		}
+	}
+}
